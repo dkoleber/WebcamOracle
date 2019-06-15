@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="save_enable"
+        android:summary="Automatically save retrieved image"
+        android:title="Autosave" />
+
+    <EditTextPreference
+        android:key="serverSetting"
+        android:capitalize="none"
+        android:defaultValue="localhost"
+        android:inputType="text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Server IP" />
+
+    <EditTextPreference
+        android:key="passwordSetting"
+        android:capitalize="none"
+        android:defaultValue="test"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Password" />
+
+
+
+</PreferenceScreen>

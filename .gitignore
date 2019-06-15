@@ -1,0 +1,17 @@
+*/__pycache__/
+__pycache__/
+*.ahk
+.idea
+venv/
+*.bat
+
+
+*.iml
+Oracle/.gradle
+Oracle/local.properties
+Oracle/.idea/workspace.xml
+Oracle/.idea/libraries
+Oracle/.DS_Store
+Oracle/build
+Oracle/captures
+Oracle/.externalNativeBuild

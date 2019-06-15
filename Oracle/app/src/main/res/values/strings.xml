@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Oracle</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+</resources>
