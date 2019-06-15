@@ -24,11 +24,11 @@ Install the Android app via Android studio, and configure the Raspi's IP in the 
 
 Access the Windows server via browser with 
 
-http://<my ip>:8000/w/ 
+http://my_ip:8000/w/ 
 
 for a single frame, or
 
-http://<my ip>:8000/w/zip/
+http://my_ip:8000/w/zip/
 
 for a zip folder containing the last 20 seconds (20 frames)
 
