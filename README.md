@@ -8,6 +8,30 @@ The project contains
 * An android app which connects to the server on the Raspi
 * A django server which can be run on a client machine to query the Raspi server. This has been only tested on Windows.
 
+## Usage
+
+Run the server on the Raspi from the home_server directory with
+
+$python3 manage.py runserver 0.0.0.0:8000
+
+Run the server on Windows from the home_server directory with 
+
+$python manage.py runserver 0.0.0.0:8000
+
+Install the Android app via Android studio, and configure the Raspi's IP in the app through the app's settings.
+
+
+
+Access the Windows server via browser with 
+
+http://<my ip>:8000/w/ 
+
+for a single frame, or
+
+http://<my ip>:8000/w/zip/
+
+for a zip folder containing the last 20 seconds (20 frames)
+
 
 ## Raspi Requirements
 
